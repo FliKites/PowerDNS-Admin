@@ -11,7 +11,7 @@ services:
       options:
         max-size: 50m
     environment:
-      - SQLALCHEMY_DATABASE_URI=sqlite:////data/powerdns-admin.db
+      - SQLALCHEMY_DATABASE_URI=pda-data:/data
       - GUNICORN_TIMEOUT=60
       - GUNICORN_WORKERS=2
       - GUNICORN_LOGLEVEL=DEBUG
