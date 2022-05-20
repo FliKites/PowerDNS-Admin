@@ -2,6 +2,7 @@
 BIND_ADDRESS = 'localhost'
 PORT = 80
 SQLALCHEMY_DATABASE_URI = 'sqlite:////data/powerdns-admin.db'
+SIGNUP_ENABLED = 'true'
 
 legal_envvars = (
     'SECRET_KEY',
